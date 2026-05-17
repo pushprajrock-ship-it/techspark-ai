@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TechSpark AI helps small and mid-sized businesses grow faster with AI-powered services — Website Creation, Automated Marketing, HR & Finance Automation." />
+  <title>TechSpark AI — Smart AI. Real Results. Built for Your Business.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">TechSpark<span class="logo-accent">AI</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-nav-cta" id="nav-cta-btn">Get Started →</a>
+      <button class="hamburger" id="hamburger" aria-label="Open Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO SECTION ======================== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <canvas id="bgCanvas"></canvas>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <div class="hero-bottom-layout">
+        <h1 class="hero-title animate-fade-up" style="--delay:0.2s">
+          Smart AI for business.<br/>
+          Real results.
+        </h1>
+        <a href="#services" class="btn-primary-yellow animate-fade-up" id="hero-explore-btn" style="--delay:0.4s">
+          EXPLORE SERVICES <span class="arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== ABOUT / WHAT WE DO ======================== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-tag">Who We Are</div>
+      <h2 class="section-title">We Make AI Simple<br/><span class="gradient-text">For Every Business</span></h2>
+      <p class="section-desc">
+        Most businesses know AI is the future — but don't know where to start. That's exactly why TechSpark AI exists. We take care of the complicated technology so you can focus on what you do best: running your business.
+      </p>
+      <div class="about-cards">
+        <div class="about-card" id="about-card-1">
+          <span class="about-icon">🎯</span>
+          <h3>Simple &amp; Straightforward</h3>
+          <p>No confusing tech talk. We explain everything in plain language and make the process as easy as ordering food online.</p>
+        </div>
+        <div class="about-card" id="about-card-2">
+          <span class="about-icon">⚡</span>
+          <h3>Fast Results</h3>
+          <p>See real improvements within weeks, not years. Our AI solutions are built to deliver quick, measurable wins for your business.</p>
+        </div>
+        <div class="about-card" id="about-card-3">
+          <span class="about-icon">🛡️</span>
+          <h3>Safe &amp; Reliable</h3>
+          <p>Your data is always secure. We follow strict safety practices — like a bank vault, but for your business information.</p>
+        </div>
+        <div class="about-card" id="about-card-4">
+          <span class="about-icon">🤝</span>
+          <h3>Always By Your Side</h3>
+          <p>We don't disappear after setup. Think of us as your AI partner — always available when you need help or have questions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SERVICES SECTION ======================== -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-tag">What We Offer</div>
+      <h2 class="section-title">Our <span class="gradient-text">AI Services</span></h2>
+      <p class="section-desc">Four powerful ways we help your business grow using Artificial Intelligence — all done for you, without you needing any tech skills.</p>
+      <div class="services-grid">
+
+        <div class="service-card" id="service-card-website">
+          <div class="service-card-glow"></div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">🌐</span>
+          </div>
+          <h3>Website Creation</h3>
+          <p>We build you a stunning, professional website powered by AI — fast, affordable, and built to impress your customers from the very first click.</p>
+          <ul class="service-features">
+            <li>✓ Beautiful, modern design</li>
+            <li>✓ Works on all phones &amp; computers</li>
+            <li>✓ Built in days, not months</li>
+            <li>✓ Easy to update anytime</li>
+          </ul>
+          <div class="service-example">
+            <span>💡 Example:</span> A local bakery gets a full website with menu, photos &amp; contact form — live in 5 days.
+          </div>
+        </div>
+
+        <div class="service-card featured" id="service-card-marketing">
+          <div class="service-card-glow"></div>
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">📣</span>
+          </div>
+          <h3>Automated Marketing</h3>
+          <p>AI tools that automatically promote your business online — sending emails, running ads, and posting on social media without you lifting a finger.</p>
+          <ul class="service-features">
+            <li>✓ Auto email &amp; WhatsApp campaigns</li>
+            <li>✓ Social media post scheduling</li>
+            <li>✓ Customer targeting with AI</li>
+            <li>✓ Monthly performance reports</li>
+          </ul>
+          <div class="service-example">
+            <span>💡 Example:</span> Your restaurant auto-sends WhatsApp offers every Friday — without you doing anything.
+          </div>
+        </div>
+
+        <div class="service-card" id="service-card-hr">
+          <div class="service-card-glow"></div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">👥</span>
+          </div>
+          <h3>HR Operations Automation</h3>
+          <p>We automate repetitive HR tasks — attendance tracking, leave management, payroll reminders — so your team can focus on people, not paperwork.</p>
+          <ul class="service-features">
+            <li>✓ Automated attendance tracking</li>
+            <li>✓ Leave request management</li>
+            <li>✓ Payroll reminders &amp; reports</li>
+            <li>✓ Employee onboarding workflows</li>
+          </ul>
+          <div class="service-example">
+            <span>💡 Example:</span> Your HR manager stops manually tracking 50 employees on Excel — AI handles it all automatically.
+          </div>
+        </div>
+
+        <div class="service-card" id="service-card-finance">
+          <div class="service-card-glow"></div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">💰</span>
+          </div>
+          <h3>Finance Operations Automation</h3>
+          <p>Automate your invoicing, expense tracking, and financial reports so your finance team saves hours every week and makes fewer errors.</p>
+          <ul class="service-features">
+            <li>✓ Auto invoice generation</li>
+            <li>✓ Expense tracking &amp; alerts</li>
+            <li>✓ Financial reports in seconds</li>
+            <li>✓ Payment follow-up automation</li>
+          </ul>
+          <div class="service-example">
+            <span>💡 Example:</span> Your accountant stops spending 3 hours on Excel reports — AI generates them in 10 seconds.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PRICING SECTION ======================== -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="section-tag">Simple Pricing</div>
+      <h2 class="section-title">Plans That Fit<br/><span class="gradient-text">Every Business</span></h2>
+      <p class="section-desc">No hidden charges. No confusing contracts. Pick the plan that fits your business today — and upgrade anytime as you grow.</p>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card" id="pricing-card-starter">
+          <div class="pricing-header">
+            <span class="plan-icon">🌱</span>
+            <h3 class="plan-name">Starter</h3>
+            <p class="plan-desc">Perfect for small businesses just getting started with AI</p>
+          </div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">9,999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> 1 AI Service of Your Choice</li>
+            <li><span class="check">✓</span> Basic Setup &amp; Onboarding</li>
+            <li><span class="check">✓</span> Email Support (24 hrs response)</li>
+            <li><span class="check">✓</span> Monthly Progress Report</li>
+            <li><span class="cross">✗</span> Priority Support</li>
+            <li><span class="cross">✗</span> Custom AI Solutions</li>
+          </ul>
+          <a href="#contact" class="btn-plan" id="starter-cta">Get Started →</a>
+        </div>
+
+        <div class="pricing-card popular" id="pricing-card-growth">
+          <div class="popular-badge">⭐ Most Popular</div>
+          <div class="pricing-header">
+            <span class="plan-icon">🚀</span>
+            <h3 class="plan-name">Growth</h3>
+            <p class="plan-desc">For growing businesses ready to scale with AI</p>
+          </div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">24,999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Up to 3 AI Services</li>
+            <li><span class="check">✓</span> Full Setup &amp; Training</li>
+            <li><span class="check">✓</span> Priority Support (4 hrs response)</li>
+            <li><span class="check">✓</span> Monthly 1-on-1 Check-in Call</li>
+            <li><span class="check">✓</span> Detailed Analytics &amp; Reports</li>
+            <li><span class="cross">✗</span> Custom AI Solutions</li>
+          </ul>
+          <a href="#contact" class="btn-plan btn-plan-popular" id="growth-cta">Get Started →</a>
+        </div>
+
+        <div class="pricing-card" id="pricing-card-enterprise">
+          <div class="pricing-header">
+            <span class="plan-icon">🏢</span>
+            <h3 class="plan-name">Enterprise</h3>
+            <p class="plan-desc">Full AI power for established businesses wanting everything</p>
+          </div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">49,999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> All 4 AI Services</li>
+            <li><span class="check">✓</span> Dedicated Account Manager</li>
+            <li><span class="check">✓</span> 24/7 Priority Support</li>
+            <li><span class="check">✓</span> Weekly Strategy Calls</li>
+            <li><span class="check">✓</span> Custom AI Solutions Built for You</li>
+            <li><span class="check">✓</span> Full Data &amp; Performance Dashboard</li>
+          </ul>
+          <a href="#contact" class="btn-plan" id="enterprise-cta">Get Started →</a>
+        </div>
+
+      </div>
+      <p class="pricing-note">💬 Not sure which plan is right for you? <a href="#contact">Talk to us</a> — we'll help you choose the best fit, absolutely free.</p>
+    </div>
+  </section>
+
+  <!-- ======================== CONTACT SECTION ======================== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Let's Grow Your<br/><span class="gradient-text">Business Together</span></h2>
+          <p class="section-desc">Fill in the form and our team will get back to you within 24 hours. No pressure, no jargon — just a simple conversation about how we can help.</p>
+          <div class="contact-details">
+            <div class="contact-item" id="contact-email">
+              <span class="contact-icon">📧</span>
+              <div>
+                <span class="contact-label">Email Us</span>
+                <a href="mailto:hello@techsparkai.in" class="contact-value">hello@techsparkai.in</a>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-phone">
+              <span class="contact-icon">📱</span>
+              <div>
+                <span class="contact-label">Call Us</span>
+                <a href="tel:+919999999999" class="contact-value">+91 99999 99999</a>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-hours">
+              <span class="contact-icon">🕐</span>
+              <div>
+                <span class="contact-label">Business Hours</span>
+                <span class="contact-value">Mon–Sat, 9 AM – 7 PM IST</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Rahul Sharma" required />
+            </div>
+            <div class="form-group">
+              <label for="business">Business Name *</label>
+              <input type="text" id="business" name="business" placeholder="e.g. Sharma Bakery" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="you@yourbusiness.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Which service interests you most?</label>
+            <select id="service" name="service">
+              <option value="">— Select a Service —</option>
+              <option value="website">🌐 Website Creation</option>
+              <option value="marketing">📣 Automated Marketing</option>
+              <option value="hr">👥 HR Operations Automation</option>
+              <option value="finance">💰 Finance Operations Automation</option>
+              <option value="multiple">🚀 Multiple Services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us about your business *</label>
+            <textarea id="message" name="message" placeholder="e.g. I run a clothing store with 20 employees and I want to automate my HR processes..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submit-btn">
+            <span class="btn-text">Send Message ✉️</span>
+            <span class="btn-loader" style="display:none">Sending...</span>
+          </button>
+          <div class="form-success" id="form-success" style="display:none">
+            ✅ Message sent! We'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">TechSpark<span class="logo-accent">AI</span></span>
+          </a>
+          <p class="footer-tagline">Smart AI. Real Results.<br/>Built for Your Business.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" id="footer-linkedin" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" id="footer-twitter" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-link" id="footer-instagram" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Website Creation</a></li>
+            <li><a href="#services">Automated Marketing</a></li>
+            <li><a href="#services">HR Automation</a></li>
+            <li><a href="#services">Finance Automation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@techsparkai.in">hello@techsparkai.in</a></li>
+            <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+            <li>Mon–Sat, 9 AM – 7 PM IST</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 TechSpark AI. All rights reserved.</p>
+        <p>Made with ❤️ &amp; AI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
